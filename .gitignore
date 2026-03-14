@@ -1,0 +1,10 @@
+# KiCad backups
+camy_cam-backups/
+
+# KiCad generated/cache files
+fp-info-cache
+*.kicad_prl
+
+# OS files
+.DS_Store
+Thumbs.db
