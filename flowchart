@@ -1,0 +1,15 @@
+Phase 1: Architecture (Docs + Brain)
+└── Read sensor datasheet → Understand I2C/SPI commands → Map memory buffers
+
+Phase 2: Boilerplate (AI Assist)
+└── "Write a circular buffer for DMA camera frames in C" ← Safe to AI
+└── "Generate CMakeLists for ESP-IDF camera project" ← Safe to AI
+
+Phase 3: Critical Hardware (Docs Only)
+└── Initialize SCCB/I2C bus at 400kHz ← Check datasheet
+└── Set 0x3800-0x3814 registers for resolution ← Copy from manufacturer example code
+└── Configure XCLK frequency (20MHz vs 24MHz) ← Critical: check sensor spec
+
+Phase 4: Integration (AI Debug)
+└── "Why does this DMA interrupt fire twice?" ← Good AI use
+└── "Optimize this YUV422 to RGB conversion" ← Good AI use

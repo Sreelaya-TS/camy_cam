@@ -490,9 +490,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "camy_cam.stl",
       "svg": "",
-      "vrml": ""
+      "vrml": "camy_cam.wrl"
     },
     "page_layout_descr_file": ""
   },
